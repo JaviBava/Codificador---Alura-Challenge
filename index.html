@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang = "es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link rel="shortcut icon" href="imagenes/Logo@2x.png">
+
+        <script defer src="script.js"></script>
+        
+        <title>Codificador de Texto</title>
+     
+    </head>
+
+    <header>
+         <h1><img src="imagenes/Logo-1.png" id="logo1"> </h1>
+          
+    </header>
+
+    <body>
+        <main>    
+             
+        <div id="encryptor">
+                <div>
+                    <h1 class="title">Codificador de texto</h1>
+                </div>
+                <div class="text-input-container">
+                    <span id="text-input" role="textbox" contenteditable></span>
+                </div>
+                <div class="buttons-container">
+                    <p class="notice">
+                        <img src="imagenes/advertencia.png" id="advertencia">
+                        Solo letras minúsculas, sin acentos ni caracteres especiales.
+                    </p>
+                    <div>
+                        <button id="encrypt-btn" class="dark-btn">Codificar</button>
+                        <button id="decrypt-btn" class="light-btn">Decodificar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-output-container">
+                <img id="no-msg-img" src="imagenes/Muneco.png" alt="Ningún mensaje encontrado">
+                <img id="Ningun" src="imagenes/Ningun.png" alt="Ningún texto ingresado">
+                <img id="Ingresar" src="imagenes/Ingresar.png" alt="Ingresar texto">
+                <span id="text-output" role="textbox" contenteditable="false"></span>
+            </div>
+        </main>
+
+        <footer>
+            <a href="https://www.linkedin.com/in/javier-bava/" target="_blank">
+                <img src="imagenes/linkedin.png" id="linkedin">
+                LinkedIn
+            </a>
+            <p>&copy Desarrollado por Javier Bava 2022</p>
+            <a href="https://github.com/JaviBava" target="_blank">
+                 <img src="imagenes/logogithub.png" id="github">
+                Github
+            </a>
+        </footer>
+    </body>
+
+</html>
